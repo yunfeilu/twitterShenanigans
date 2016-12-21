@@ -2,11 +2,11 @@ import json
 import re
 import unicodedata
 
-tweets_data_path = 'twitter_data.txt'
+tweets_data_path = 'twitter_data3.txt'
 
 tweets_data = []
 tweets_file = open(tweets_data_path, "r")
-doc = open('doc.txt','w')
+doc = open('doc3.txt','w')
 temp_str = ""
 for line in tweets_file:
     try:

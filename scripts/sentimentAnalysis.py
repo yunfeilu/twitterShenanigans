@@ -1,7 +1,11 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-with open('ultimate.txt','r') as f:
+line_number = 1
+file = open('doc.txt','r')
+
+
+
+with open('doc.txt','r') as f:
     documents = f.read().splitlines()
-print (len(documents))
 
 # sentences = ["VADER is smart, handsome, and funny.",
 #              "VADER is not smart, handsome, nor funny.",
